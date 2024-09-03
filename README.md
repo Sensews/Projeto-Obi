@@ -32,7 +32,7 @@ Project Obi is a web application designed to streamline character creation and c
 <img src="/assets/print_login_screen.png" />
 
 **Main Screen:**
-![Insert screenshot of your character sheet page here](#)
+<img src="/assets/print_main_screen.png" />
 
 ## Getting Started 
 
