@@ -29,10 +29,7 @@ Project Obi is a web application designed to streamline character creation and c
 
 ## Screenshots
 **Login Screen:**
-![Insert screenshot of your login page here](#)
-
-**Register Screen:**
-![Insert screenshot of your character sheet page here](#)
+<img src="/assets/print_login_screen.png" />
 
 **Main Screen:**
 ![Insert screenshot of your character sheet page here](#)
