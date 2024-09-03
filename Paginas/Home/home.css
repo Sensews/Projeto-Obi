@@ -1,0 +1,35 @@
+.escolha {
+    font-size: 16px; /* Aumentando um pouco mais o tamanho do título */
+    font-family: 'Kanit', sans-serif; /* Utilizando a fonte Kanit */
+    flex-grow: 1; /* Ocupa o espaço disponível */
+    text-align: center; /* Alinha o texto no centro */
+    margin-left: 15px;
+}
+
+.mestre {
+    cursor: pointer;
+    height: 25%;
+    width: 25%;
+    margin-right: 3%;
+    margin-top: 6%;
+    transition: transform 0.3s ease;
+}
+
+.mestre:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 20px rgb(77, 8, 8));
+}
+
+.jogador {
+    cursor: pointer;
+    height: 25%;
+    width: 25%;
+    margin-left: 3%;
+    margin-top: 6%;
+    transition: transform 0.3s ease;
+}
+
+.jogador:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 20px rgb(77, 209, 207));
+}

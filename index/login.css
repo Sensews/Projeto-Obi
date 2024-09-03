@@ -1,0 +1,51 @@
+
+.form-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input, .btn, .registerBtn {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid var(--text-color);
+    border-radius: 0;
+    background-color: black;
+    color: var(--text-color);
+    font-family: 'Kanit', sans-serif;
+}
+
+.input {
+    margin-bottom: 10px;
+}
+
+.btn, .registerBtn {
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    
+}
+
+.btn:hover, .registerBtn:hover {
+    background-color: var(--button-hover-background);
+    color: var(--button-hover-text);
+}
+
+.forgot-password {
+    font-size: 14px;
+    display: block;
+    margin-top: 15px; /* Ajustando a margem superior */
+    color: var(--text-color);
+    text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+}
+
+.registerBtn {
+    margin-top: 10px;
+}
+
+.registerBtn:hover {
+    background-color: var(--button-hover-background);
+    color: var(--button-hover-text);
+}

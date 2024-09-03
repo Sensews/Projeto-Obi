@@ -1,0 +1,67 @@
+body {
+    background: black;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.head {
+    margin-left: 2%;
+    cursor: pointer;
+    font-family: 'Kanit', sans-serif;
+}
+
+.ficha-container {
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.imagem-box {
+    width: 300px; /* Ajuste a largura conforme necessário */
+    height: 400px; /* Ajuste a altura conforme necessário */
+    margin-right: 20px;
+}
+
+.imagem-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.formulario-container {
+  display: flex; /* Use flexbox for easy arrangement */
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  gap: 10px; /* Add spacing between elements */
+}
+
+.form-group {
+  flex: 1 1 45%; /* Each group takes up to 45% of available width */
+  /* Adjust the percentage as needed for your layout */
+}
+
+#character-form label,
+#character-form input,
+#character-form select {
+display: block;
+  width: 100%; /* Ensure elements fill the width of their container */
+}
+
+#character-form input,
+#character-form select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: black; /* Cor do texto */
+}
+
+#character-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}

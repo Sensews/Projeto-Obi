@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESCOLHA</title>
+    <!-- CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/global.css">
+    <link rel="stylesheet" href="/Paginas/Home/home.css">
+    <link rel="shortcut icon" type="imagex/png" href="/assets/eye_top_icon.ico">
+
+    <!-- JavaScript -->
+    <script src="https://www.gstatic.com/firebasejs/10.10.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.10.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore-compat.js"></script>
+    <script src="/firebase_init.js" defer></script>
+    <script src="/validation.js" defer></script>
+    <script src="/loading.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="/assets/olho_aberto.png" alt="Logout" class="logout-icon" onclick="logout()"> 
+    </header>
+    <script src="/auth-guard.js" defer></script>
+    <script src="/Paginas/Mestre/mestre.js" defer></script>
+</body>
+</html>
